@@ -1,3 +1,5 @@
+// - Random headers (experimenting)
+
 var header = ['Plethora Flag',
   'Plethora Flag',
   'Plethora Flag',
@@ -33,3 +35,5 @@ function loadRandomHeader() {
   var randomNumber = Math.floor(Math.random() * (blogHeader.length));
   document.getElementById('displayBlogHeader').innerHTML = blogHeader[randomNumber]
 }
+
+// - Scroll to top button
