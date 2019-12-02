@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="styles/main.css" type="text/css" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+
+  <title>The Burn Book Release Notes &bull; Plethora Flag</title>
+</head>
+
+<body>
+	<!-- Header -->
+
+	<header>
+	  <h1><a href="index.html" title="Home"><i>Plethora Flag</a> > <a href="the-burn-book.html">The Burn Book</a> > Release Notes</i></h1>
+	  <hr style="margin-bottom:2em;">
+	</header>
+
+	<!-- Content -->
+
+  <h2>Version 1.0</h2>
+  <p>Initial release! Woohoo!</p>
+  <p>
+    <b>Features:</b>
+    - 150+ Insults, randomly generated upon pressing the "Generate" button.<br>
+    - 9 tips on upping your personal insult game.
+  </p>
+
+	<!-- Scroll back to top button -->
+
+	<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+			if (document.body.scrollTop > 666 || document.documentElement.scrollTop > 666) {
+				document.getElementById("scrollBtn").style.display = "block";
+			} else {
+				document.getElementById("scrollBtn").style.display = "none";
+			}
+		}
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+
+	<button onclick="topFunction()" id="scrollBtn" title="Go to top">&#8673;</button>
+
+  <!-- Footer -->
+
+	<footer>
+		<br><br>
+		<p style="font-size:0.8em;"><i>&#169;2019 Plethora Flag LLC. &nbsp;&nbsp;ゴージャス松野、 私に気づいてください。</i></p>
+		<hr style="margin-top:0.5em;margin-right:90%;margin-bottom:2em;">
+	</footer>
+
+</body>
+</html>
